@@ -6,11 +6,11 @@ const New = (props) => {
       <h1> New Route </h1>
 
 <form action="/flights" method="POST">
-  <label><Airline></Airline>:</label>
+  <label>Airline:</label>
   <input type="text" name="name" /><br/>
   <label>flightNo:</label>
   <input type="text" number="number" /><br/>
-  <label><Departs></Departs>:</label>
+  <label>Departs:</label>
   <input type="datetime-local"></input><br/>
   <input type="submit" name="" value="Create Flight!" />
 </form>
